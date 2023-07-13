@@ -12,3 +12,14 @@ CHAT_SERVER_ORIGIN=http://localhost<br/>
 CHAT_SERVER_URL=http://localhost:3000<br/>
 
 JWT_SECRET=YOUR_JWT_SECRETE
+
+Run following commands:
+
+cd client
+composer i
+cd socket
+npm i
+
+Then to start server, run:
+
+npm run watch-server
