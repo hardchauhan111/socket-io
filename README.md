@@ -1,6 +1,6 @@
 # socket-io
 
-.env
+# .env
 
 DB_HOST=databasehost<br/>
 DB_PORT=databaseport<br/>
@@ -13,13 +13,16 @@ CHAT_SERVER_URL=http://localhost:3000<br/>
 
 JWT_SECRET=YOUR_JWT_SECRETE
 
-Run following commands:
+# Run following commands:
 
-cd client
-composer i
-cd socket
-npm i
+## For client
+```cd client```<br/>
+```composer i```<br/>
+
+## For server
+```cd socket```<br/>
+```npm i```
 
 Then to start server, run:
 
-npm run watch-server
+```npm run watch-server```
