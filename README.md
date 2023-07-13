@@ -16,13 +16,19 @@ JWT_SECRET=YOUR_JWT_SECRETE
 # Run following commands:
 
 ## For client
-```cd client```<br/>
-```composer i```<br/>
+```bash
+cd client
+composer i
+```
 
 ## For server
-```cd socket```<br/>
-```npm i```
+```bash
+cd socket
+npm i
+```
 
 Then to start server, run:
 
-```npm run watch-server```
+```bash
+npm run watch-server
+```
