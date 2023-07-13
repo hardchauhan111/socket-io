@@ -2,16 +2,16 @@
 
 # .env
 
-DB_HOST=databasehost<br/>
-DB_PORT=databaseport<br/>
-DB_DATABASE=databasenae<br/>
-DB_USERNAME=username<br/>
-DB_PASSWORD=password<br/>
+DB_HOST=YOUR_DB_HOST<br/>
+DB_PORT=YOUR_DB_PORT<br/>
+DB_DATABASE=YOUR_DB_DATABASE<br/>
+DB_USERNAME=YOUR_USERNAME<br/>
+DB_PASSWORD=YOUR_DB_PASSWORD<br/>
 
 CHAT_SERVER_ORIGIN=http://localhost<br/>
 CHAT_SERVER_URL=http://localhost:3000<br/>
 
-JWT_SECRET=YOUR_JWT_SECRETE
+JWT_SECRET=YOUR_JWT_SECRET
 
 # Run following commands:
 
